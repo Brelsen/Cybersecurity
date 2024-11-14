@@ -1,3 +1,13 @@
-Creating a network using Cisco packet tracer, project assignment CIS 3210 (Telecommunications and Networking).
+Cisco Packet tracer CLI
 
-Creating a network topology:
+#enable privileged commands
+Switch>enable
+Switch# show running-config
+
+#activating commands on the switch
+Switch# configure terminal
+Switch(config)#hostname Office-SW2
+Office-SW2(config)#line con 0
+Office-SW2(config-line)#password Cisco123
+Office-SW2(config-line)#login
+Office-SW2(config-line)#end
